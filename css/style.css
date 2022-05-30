@@ -43,6 +43,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   padding-top: 15px;
+  text-shadow: 0 0 15px;
 }
 .team-member {
   display: grid;
@@ -53,7 +54,6 @@ body {
   height: fit-content;
 }
 .member {
-  display: inline-block;
   max-width: 100px;
   max-width: fit-content;
   border-radius: 50px;
