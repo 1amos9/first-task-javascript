@@ -27,7 +27,7 @@ body {
   border: 1px solid rgba(0, 225, 255, 0.19);
   width: 80%;
   min-height: 200px;
-  margin: 5rem auto;
+  margin: 10rem auto;
   display: grid;
   justify-content: center;
   align-items: center;
