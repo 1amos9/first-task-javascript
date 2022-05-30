@@ -68,6 +68,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: rgb(2, 11, 48);
+  animation: animated 2s infinite linear;
 }
 .description p {
   font-size: 15px;
