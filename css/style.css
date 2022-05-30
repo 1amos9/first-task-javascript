@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  position: relative;
+}
+body {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-image: url(../img/download.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.cards {
+  background: rgba(0, 225, 255, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(0, 225, 255, 0.19);
+  width: 80%;
+  min-height: 200px;
+  margin: 5rem auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.title {
+  width: 100%;
+  height: 4rem;
+}
+.title h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.team-member {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+.member {
+  display: inline-block;
+  max-width: 100px;
+  max-width: fit-content;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+}
+.name h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(2, 11, 48);
+}
+.description p {
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  text-transform: lowercase;
+  text-overflow: ellipsis;
+}
+.image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
