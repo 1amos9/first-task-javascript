@@ -65,8 +65,8 @@ function almightyFormula(a = 5, b = 7, c = 3) {
     "                                                                                                                              "
   );
   console.log("==================question 6=====================");
-  console.log("x1 = " + " " + (-b + (b * b - 4 * a * c)) / (2 * a));
-  console.log("x2 = " + " " + (-b - (b * b - 4 * a * c)) / (2 * a));
+  console.log("x1 = " + " " + (-b + (b ** 2 - 4 * a * c)) / (2 * a));
+  console.log("x2 = " + " " + (-b - (b ** 2 - 4 * a * c)) / (2 * a));
 }
 almightyFormula();
 //end of question 6

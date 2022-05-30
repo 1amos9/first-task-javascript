@@ -34,7 +34,7 @@ body {
   padding: 2rem;
 }
 .cards h2 {
-  text-shadow: 0 0 15px;
+  text-shadow: 0 0 10px;
 }
 .title {
   width: 100%;
@@ -94,5 +94,87 @@ body {
   }
   75% {
     color: yellow;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    background-image: url(../img/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+  }
+  .container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    min-height: 200px;
+    margin: 1px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .title {
+    height: 100%;
+    width: 100%;
+    margin-left: 120px;
+  }
+  .title h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  .team-member {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .member {
+    width: 70%;
+    max-width: fit-content;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .name h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 11, 48);
+    width: 80%;
+  }
+  .description p {
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    width: 80%;
+  }
+  .image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .image {
+    width: 80%;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .cards {
+    width: 80%;
   }
 }
